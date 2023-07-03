@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+}
+
+/* Estilos para el contenedor del juego */
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos para los botones de elección */
+#choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.choice img{
+    width: 150px;
+}
+
+/* Estilos para mostrar el resultado */
+#result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #decece;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+h1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#result.ganaste {
+    color: green;
+    background-color: #e8f5e9;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.3);
+}
+
+#result.perdiste {
+    color: red;
+    background-color: #ffebee;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+#result.empate {
+    color: yellow;
+    background-color: #fff9c4;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.3);
+}
